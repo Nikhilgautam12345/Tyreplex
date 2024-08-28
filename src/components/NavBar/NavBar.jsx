@@ -136,7 +136,7 @@ const NavBar = () => {
           <div className="loginHeading pl-1 hidden sm:block md:text-sm lg:text-base">Login</div>
         </div>
       </div>
-      {showHamburgerMenu && <HamburgerMenu/>}
+      {showHamburgerMenu && <HamburgerMenu showHamburgerMenu={showHamburgerMenu} setShowHamburgerMenu={setShowHamburgerMenu} />}
     </>
   );
 };

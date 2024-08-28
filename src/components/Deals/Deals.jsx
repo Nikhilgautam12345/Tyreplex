@@ -19,7 +19,7 @@ const Deals = () => {
           <div className="font-semibold mb-3 sm:text-lg poppins">Deals In</div>
           <div className="flex mx-3 overflow-x-auto lg:text-base text-sm -normal poppins text-gray-700 space-x-2"style={{ scrollbarWidth: "none" }}>
             {items.map((item, index) => (
-              <div key={index} className="flex-shrink-0 cursor-pointer" >
+              <div key={index} className="flex-shrink-0 shadow cursor-pointer" >
                 <div className="mb-2">
                   <img src={item.src} alt={`Deal ${index + 1}`} className="h-8 w-40 object-cover" />
                 </div>

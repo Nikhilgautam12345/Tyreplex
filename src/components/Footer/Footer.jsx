@@ -3,7 +3,7 @@ import { SlSocialFacebook } from "react-icons/sl";
 const Footer = () => {
   return (
     <div className="footer flex justify-center mt-10">
-    <div className="w-10/12 bg-white">
+    <div className="sm:w-10/12 bg-white">
         <div className="questionSection p-3 flex justify-between" style={{backgroundColor:"#FFEAAA"}}>
            <div className="sm:w-2/3 w-fit poppins">
             <div className="font-semibold mb-3 sm:text-lg ">Have a question about Tyres?</div>
