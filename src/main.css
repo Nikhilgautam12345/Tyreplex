@@ -1,0 +1,46 @@
+body {
+  background-color: #f5f6f9;
+  
+}
+.poppins
+{
+  font-family: "poppins";
+}
+
+  .navHeading::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ed1c24; /* Red color for the border */
+    transition: width 0.3s ease-in-out;
+  }
+
+  .navHeading:hover::after {
+    width: 100%;
+  }
+  .warrantyTagColor
+  {
+    background-color: #FFF1C5;
+  }
+  .tyreImage
+  {
+    position: absolute;
+    right: -70px;
+    bottom: -39px;
+  }
+
+  @media screen and (max-width:639px){
+    .mainLogo
+    {
+      height: 30px;
+    }
+  }
+  @media screen and (max-width:1024px)and (min-width:640px){
+    .mainLogo
+    {
+      width: 130px;
+    }
+  }
