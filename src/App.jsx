@@ -1,5 +1,5 @@
 
-import Deals from "./components/Deals/Deals.JSX"
+import Deals from "./components/Deals/Deals"
 import NavBar from "./components/NavBar/NavBar"
 import ShopDesc from "./components/ShopDesc/ShopDesc"
 import Service from "./components/Service/Serice"
