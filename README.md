@@ -1,3 +1,3 @@
 # Tyreplex
 You can view the live demo of the project here:
-[**Figma Replica - Live Demo**](https://main--tyreplexnikhil.netlify.app/)
+<a href="https://main--tyreplexnikhil.netlify.app/" target="_blank"><strong>Figma Replica - Live Demo</strong></a>
